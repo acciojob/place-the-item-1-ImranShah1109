@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.holder
+{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.holder .items
+{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+}
